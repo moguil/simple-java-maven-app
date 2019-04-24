@@ -6,7 +6,7 @@ pipeline {
         }
     }
     options {
-        skipStagedAfterUnstable()
+        skipStagesAfterUnstable()
     }
     stages {
         stage('Build') {
